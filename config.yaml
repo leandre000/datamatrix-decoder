@@ -1,0 +1,27 @@
+# DataMatrix Decoder Configuration
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: null
+
+decoder:
+  timeout: 30
+  max_workers: 4
+  formats:
+    - datamatrix
+    - qrcode
+    - aztec
+    - maxicode
+    - ean13
+    - ean8
+    - upca
+    - code128
+    - code39
+    - pdf417
+
+api:
+  host: 0.0.0.0
+  port: 8000
+  max_file_size: 10485760
+  workers: 4
