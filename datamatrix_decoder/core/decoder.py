@@ -1,4 +1,6 @@
 import logging
 
-logger = logging.getLogger(__name__)
+class DataMatrixDecoder:
+    def __init__(self):
+        self.timeout = 30
 
