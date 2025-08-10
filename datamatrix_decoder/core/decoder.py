@@ -1,9 +1,9 @@
+'''Decoder implementation'''
 from PIL import Image
-from pathlib import Path
 
 class DataMatrixDecoder:
+    '''High-performance decoder'''
     def decode_image(self, path):
-        if not Path(path).exists():
-            raise FileNotFoundError(path)
-        return None
+        '''Decode image'''
+        pass
 
