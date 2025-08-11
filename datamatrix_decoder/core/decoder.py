@@ -1,9 +1,6 @@
-'''Decoder implementation'''
-from PIL import Image
+from pyzbar import pyzbar
 
-class DataMatrixDecoder:
-    '''High-performance decoder'''
-    def decode_image(self, path):
-        '''Decode image'''
-        pass
+class BarcodeDecoder:
+    def __init__(self):
+        self.formats = []
 
