@@ -1,6 +1,7 @@
 from pyzbar import pyzbar
 
 class BarcodeDecoder:
-    def __init__(self):
-        self.formats = []
+    SUPPORTED_FORMATS = ['qrcode', 'datamatrix']
+    def decode_image(self, path):
+        pass
 
