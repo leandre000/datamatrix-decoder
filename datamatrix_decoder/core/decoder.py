@@ -1,3 +1,6 @@
 class BarcodeDecoder:
-    SUPPORTED_FORMATS = ['qrcode', 'datamatrix', 'aztec', 'ean13', 'code128']
+    def _validate_formats(self):
+        for fmt in self.formats:
+            if fmt not in self.SUPPORTED_FORMATS:
+                raise ValueError(fmt)
 
