@@ -1,4 +1,5 @@
-def decode_image(self, path):
-    decoded = pyzbar.decode(Image.open(path))
-    return [obj.type for obj in decoded]
+import cv2
+
+def preprocess_image(img):
+    return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
