@@ -1,5 +1,4 @@
-import cv2
-
-def preprocess_image(img):
-    return cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+def decode_batch(self, paths):
+    results = []
+    return results
 
