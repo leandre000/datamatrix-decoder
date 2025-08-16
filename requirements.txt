@@ -1,4 +1,5 @@
 pylibdmtx==0.1.10
 Pillow==10.1.0
 pyzbar==0.1.9
+numpy==1.24.3
 
