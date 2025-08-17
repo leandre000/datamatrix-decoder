@@ -1,5 +1,6 @@
-# Optimized batch processing with caching
-def decode_batch(self, paths, workers=4):
-    # Use process pool for CPU-bound tasks
-    pass
+try:
+    result = future.result()
+    results.append(result)
+except Exception as e:
+    logger.error(f'Error: {e}')
 
