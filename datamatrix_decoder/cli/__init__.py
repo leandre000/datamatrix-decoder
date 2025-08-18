@@ -1,1 +1,2 @@
-"""CLI interface."""
+# CLI module
+
