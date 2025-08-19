@@ -1,6 +1,7 @@
 import click
 
-@click.group()
-def cli():
-    pass
+@click.command()
+@click.argument('image_path')
+def decode(image_path):
+    print(f'Decoding {image_path}')
 
