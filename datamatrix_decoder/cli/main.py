@@ -1,7 +1,5 @@
-import click
+from rich.console import Console
 
-@click.command()
-@click.argument('directory')
-def batch(directory):
-    print(f'Batch processing {directory}')
+console = Console()
+console.print('[green]Success[/green]')
 
