@@ -1,5 +1,4 @@
-from rich.progress import track
-
-for item in track(items):
-    process(item)
+@click.option('--format', '-f', default='datamatrix')
+def decode(image_path, format):
+    pass
 
