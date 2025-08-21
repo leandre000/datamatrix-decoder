@@ -1,5 +1,5 @@
-from rich.console import Console
+from rich.progress import track
 
-console = Console()
-console.print('[green]Success[/green]')
+for item in track(items):
+    process(item)
 
