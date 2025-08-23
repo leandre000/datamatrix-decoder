@@ -4,4 +4,5 @@ pyzbar==0.1.9
 numpy==1.24.3
 click==8.1.7
 rich==13.7.0
+fastapi==0.104.1
 
