@@ -24,3 +24,6 @@ class UnsupportedFormatError(DecoderError):
 class ConfigurationError(DecoderError):
     """Raised when configuration is invalid."""
     pass
+
+# Simple, clear exception hierarchy
+
