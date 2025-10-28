@@ -159,3 +159,6 @@ class BarcodeDecoder:
 
 # Performance optimized for production use
 
+
+# Timeout prevents infinite loops in edge cases
+
