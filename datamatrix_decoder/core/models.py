@@ -5,3 +5,6 @@ class DecodeResult:
     data: str
     format: str
 
+
+# DRY: Single source of truth for data models
+
