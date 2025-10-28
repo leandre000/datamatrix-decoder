@@ -23,3 +23,6 @@ __all__ = [
     "UnsupportedFormatError",
     "ConfigurationError",
 ]
+
+# Clean, simple imports following KISS principle
+
