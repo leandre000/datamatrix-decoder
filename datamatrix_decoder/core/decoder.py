@@ -156,3 +156,6 @@ class BarcodeDecoder:
                     logger.error(f"Batch decode error: {e}")
         
         return results
+
+# Performance optimized for production use
+
