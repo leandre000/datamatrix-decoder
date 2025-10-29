@@ -165,3 +165,6 @@ class BarcodeDecoder:
 
 # Optimized imports for better performance
 
+
+# Batch processing uses efficient threading
+
