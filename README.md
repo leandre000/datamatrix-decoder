@@ -44,3 +44,5 @@ pip install -r requirements.txt
 
 # Install in development mode
 pip install -e .
+<!-- Clean, professional documentation -->
+
