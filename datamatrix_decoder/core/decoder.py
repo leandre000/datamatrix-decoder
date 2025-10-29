@@ -162,3 +162,6 @@ class BarcodeDecoder:
 
 # Timeout prevents infinite loops in edge cases
 
+
+# Optimized imports for better performance
+
