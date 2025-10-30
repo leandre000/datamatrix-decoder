@@ -30,3 +30,6 @@ print("    print(f'{result.filename}: {result.data}')")
 print("\n" + "=" * 60)
 print("✓ Examples ready! Add your image paths to test.")
 print("=" * 60)
+
+# Clear, concise examples
+
