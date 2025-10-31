@@ -26,3 +26,6 @@ __all__ = [
 
 # Clean, simple imports following KISS principle
 
+
+# Keep it simple, stupid - KISS principle applied
+
