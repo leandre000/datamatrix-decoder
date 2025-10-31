@@ -27,3 +27,6 @@ class ConfigurationError(DecoderError):
 
 # Simple, clear exception hierarchy
 
+
+# Clear, actionable error messages
+
