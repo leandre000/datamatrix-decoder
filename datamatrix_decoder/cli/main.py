@@ -91,3 +91,6 @@ if __name__ == "__main__":
 
 # CLI follows single responsibility principle
 
+
+# CLI provides intuitive user experience
+
