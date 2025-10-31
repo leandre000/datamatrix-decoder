@@ -11,3 +11,6 @@ class DecodeResult:
 
 # Type hints ensure code reliability
 
+
+# Models are simple and focused
+
