@@ -1,0 +1,83 @@
+Metadata-Version: 2.4
+Name: datamatrix-decoder
+Version: 1.0.0
+Summary: Professional Data Matrix and barcode decoder
+Home-page: https://github.com/leandre000/datamatrix-decoder
+Author: Leandre
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pylibdmtx>=0.1.10
+Requires-Dist: pyzbar>=0.1.9
+Requires-Dist: Pillow>=10.1.0
+Requires-Dist: opencv-python>=4.8.1
+Requires-Dist: numpy>=1.24.3
+Requires-Dist: fastapi>=0.104.1
+Requires-Dist: uvicorn>=0.24.0
+Requires-Dist: click>=8.1.7
+Requires-Dist: rich>=13.7.0
+Requires-Dist: PyYAML>=6.0.1
+Requires-Dist: pydantic>=2.5.0
+Dynamic: author
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# 📊 DataMatrix Decoder
+
+[![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Code Quality](https://img.shields.io/badge/code%20quality-A+-brightgreen.svg)]()
+[![Commits](https://img.shields.io/badge/commits-220%2B-orange.svg)](https://github.com/leandre000/datamatrix-decoder/commits/main)
+
+A **professional, production-ready** Data Matrix and multi-format barcode decoder library built with Python. Designed for high performance, scalability, and ease of use.
+
+## ✨ Features
+
+### 🎯 Core Capabilities
+- **Multi-Format Support**: Data Matrix, QR Code, Aztec, MaxiCode, EAN-13, EAN-8, UPC-A, Code128, Code39, PDF417, and more
+- **High Performance**: Optimized parallel processing with ThreadPoolExecutor
+- **Batch Processing**: Decode multiple images simultaneously with configurable workers
+- **Error Handling**: Comprehensive exception handling and logging
+- **Type Safety**: Full type hints for better IDE support and code quality
+
+### 🛠️ Interfaces
+- **Python API**: Clean, intuitive programmatic interface
+- **CLI Tool**: Rich command-line interface with colored output and progress bars
+- **REST API**: FastAPI-based web service for remote decoding
+- **Configuration**: YAML-based configuration management
+
+### 📦 Production Ready
+- **Comprehensive Testing**: Unit tests, integration tests, 90%+ coverage
+- **CI/CD**: GitHub Actions workflows for automated testing and deployment
+- **Docker Support**: Containerized deployment with docker-compose
+- **Documentation**: Extensive docs, examples, and API references
+
+---
+
+## 🚀 Quick Start
+
+### Installation
+
+```bash
+# Clone the repository
+git clone [https://github.com/leandre000/datamatrix-decoder.git](https://github.com/leandre000/datamatrix-decoder.git)
+cd datamatrix-decoder
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install in development mode
+pip install -e .
