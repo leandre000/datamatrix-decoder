@@ -1,8 +1,26 @@
+# Core dependencies
 pylibdmtx==0.1.10
-Pillow==10.1.0
 pyzbar==0.1.9
+Pillow==10.1.0
+opencv-python==4.8.1.78
 numpy==1.24.3
+
+# Web API
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+
+# CLI
 click==8.1.7
 rich==13.7.0
-fastapi==0.104.1
 
+# Configuration
+PyYAML==6.0.1
+python-dotenv==1.0.0
+
+# Utilities
+typing-extensions==4.8.0
+pydantic==2.5.0
+
+# Logging
+coloredlogs==15.0.1
